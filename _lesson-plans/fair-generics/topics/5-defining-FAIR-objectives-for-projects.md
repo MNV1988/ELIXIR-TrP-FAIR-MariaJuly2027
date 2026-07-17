@@ -5,8 +5,8 @@ status: ready_for_review
 layout: lesson-plan
 authors:
   - Pauline l'Henaff
-  - Bruna Vieira
-  - Cesar Bernabe
+  - 0000-0001-7893-0505
+  - 0000-0003-1795-5930
   - 0000-0002-3412-9086
   - 0000-0002-7398-0594
 reviewers:
@@ -168,6 +168,9 @@ activities:
   before:
     - learning_outcome: 1
       activities: >-
+        **Reading Independent Learning**
+
+
         * **Learning Objectives:** Familiarize participants with the structural
         components of a standard Data Management Plan (DMP) and prompt initial
         questions.
@@ -178,8 +181,12 @@ activities:
         * **Materials Provided by Trainer:** A standard DMP template sent out
         via email before the session.
           * *Trainer Note: Use your own institutional template (e.g., Maastricht University's FHML template) or download a standard funder template from a national funder like NWO or an international funder like Horizon Europe.*
-
-        **1.The Exercise:**&#x20;
+      time: '20'
+      type: Reading/Independent Learning
+      level: beginner
+    - learning_outcome: 1
+      activities: >-
+        &#x20;**Guided Exercise:**&#x20;
 
 
         Instruct the participants to complete the following tasks at home before
@@ -228,6 +235,9 @@ activities:
   during:
     - learning_outcome: 6
       activities: >-
+        **Exercise:**
+
+
         **Filling out a DMP**
 
 
@@ -315,7 +325,7 @@ This lesson is divided itself in the 3 phases: ​
 
 **3.0 Practical Part: Working with the DMP & Data Steward Feedback:** Facilitate Participants filling out their own DMP form
 
-**4- Practical Part: Work with the DMP and send to a Data Steward​:** The trainer then divides the group into pairs, depending on the number of participants. The participants will now work on their own DMPs and debrief about them in the later section.
+**4.0  Practical Part: Work with the DMP and send to a Data Steward​:** The trainer then divides the group into pairs, depending on the number of participants. The participants will now work on their own DMPs and debrief about them in the later section.
 
 ### **Materials/Equipment :**&#x20;
 

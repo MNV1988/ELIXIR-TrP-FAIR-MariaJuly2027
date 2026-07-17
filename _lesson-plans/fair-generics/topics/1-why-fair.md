@@ -19,8 +19,8 @@ description: >-
   ## Train-the-Trainer: Why FAIR?
 
 
-  This topic introduces the foundational concepts of the FAIR principles
-  (Findable, Accessible, Interoperable, Reusable). It highlights how
+  This topic introduces participants to the foundational concepts of the FAIR
+  principles (Findable, Accessible, Interoperable, Reusable). It highlights how
   stakeholders, researchers, and the broader community benefit from FAIR
   implementation, while exploring the growing incentives from journals, funding
   bodies, and institutions that tie FAIR compliance to scientific impact. A
@@ -28,41 +28,7 @@ description: >-
   research lifecycle is vital for driving successful implementation.
 
 
-  ### Summary of Tasks and Actions
-
-
-  * **1.0 Pre-Workshop Assignment:** Participants read a foundational academic
-  article to familiarize themselves with the FAIR principles before the session
-  begins.
-
-  * **2.0 Hands-on Activities:** This core segment combines short lectures with
-  individual and group assignments designed to deepen participants' conceptual
-  understanding. The lesson plan offers a menu of modular activities, allowing
-  trainers to select and adapt exercises based on their specific audience,
-  timeframe, and context.
-
-  * **3.0 Post-Session Plenary Discussion:** The session concludes with a
-  collaborative discussion centered on the real-world benefits, opportunities,
-  and challenges of applying FAIR principles to active research projects.
-
-
-  ## Materials and Equipment
-
-
-  * **For Participants:** A computer and a stable internet connection (if the
-  training is delivered online or uses cloud-based tools).
-
-  * **For the Trainer:** A digital collaboration tool (such as Miro or an
-  equivalent virtual whiteboard). For in-person delivery, this can easily be
-  substituted with physical chart paper, sticky notes, and markers.
-
-
-  ## References
-
-
-  * Wilkinson, M. D., Dumontier, M., Aalbersberg, I. J., Appleton, G., Axton,
-  M., Baak, A., ... & Mons, B. (2016). The FAIR Guiding Principles for
-  scientific data management and stewardship. *Scientific Data*, 3(1), 1-9.
+  ###
 fair_elements:
   - F
   - A
@@ -101,7 +67,7 @@ learning_outcomes:
         level: expert
 activities:
   before:
-    - learning_outcome: 1
+    - learning_outcomes: [1]
       activities: >-
         **Reading**
 
@@ -113,7 +79,7 @@ activities:
       type: individual exercise
       level: beginner
   during:
-    - learning_outcome: 1
+    - learning_outcomes: [1]
       activities: >-
         **Lecture:**
 
@@ -126,7 +92,7 @@ activities:
       time: 30 min
       type: lecture
       level: beginner
-    - learning_outcome: 1
+    - learning_outcomes: [1]
       activities: >-
         **Exercise:**
 
@@ -140,7 +106,7 @@ activities:
       time: 15 min
       type: group activity
       level: beginner
-    - learning_outcome: 1
+    - learning_outcomes: [1]
       activities: >-
         **Exercise:**&#x20;
 
@@ -153,7 +119,7 @@ activities:
       time: 20 min
       type: individual exercise
       level: beginner
-    - learning_outcome: 1
+    - learning_outcomes: [1]
       activities: >-
         **Lecture**:
 
@@ -167,7 +133,7 @@ activities:
       time: 10 min
       type: group discussion
       level: beginner
-    - learning_outcome: 2
+    - learning_outcomes: [2]
       activities: >-
         **Exercise:**
 
@@ -180,7 +146,7 @@ activities:
       time: 10 min
       type: group discussion
       level: beginner
-    - learning_outcome: 2
+    - learning_outcomes: [2]
       activities: >-
         **Exercise:**&#x20;
 
@@ -193,7 +159,7 @@ activities:
       time: 30 min
       type: group exercise
       level: beginner
-    - learning_outcome: 3
+    - learning_outcomes: [3]
       activities: >-
         **Exercise:**&#x20;
 
@@ -206,7 +172,7 @@ activities:
       time: 10 min
       type: group discussion
       level: beginner
-    - learning_outcome: 3
+    - learning_outcomes: [3]
       activities: >-
         **Exercise:**&#x20;
 
@@ -219,7 +185,7 @@ activities:
       time: 20 min
       type: group discussion
       level: intermediate
-    - learning_outcome: 4
+    - learning_outcomes: [4]
       activities: >-
         **Lecture:**
 
@@ -229,7 +195,7 @@ activities:
       time: 10 min
       type: group discussion
       level: beginner
-    - learning_outcome: 4
+    - learning_outcomes: [4]
       activities: >-
         **Exercise:**&#x20;
 
@@ -243,7 +209,7 @@ activities:
       time: 60 min
       type: workshop
       level: expert
-    - learning_outcome: 4
+    - learning_outcomes: [4]
       activities: >-
         **Exercise:**&#x20;
 
@@ -257,7 +223,7 @@ activities:
       type: workshop
       level: expert
   after:
-    - learning_outcome: 4
+    - learning_outcomes: [4]
       activities: >-
         **Exercise:**&#x20;
 
@@ -372,7 +338,7 @@ additionalResources:
 
 ### Train-the-Trainer: Why FAIR?
 
-This topic introduces the foundational concepts of the FAIR principles (Findable, Accessible, Interoperable, Reusable). It highlights how stakeholders, researchers, and the broader community benefit from FAIR implementation, while exploring the growing incentives from journals, funding bodies, and institutions that tie FAIR compliance to scientific impact. A fundamental understanding of FAIR and its role across all stages of the research lifecycle is vital for driving successful implementation.
+This topic introduces participants to the foundational concepts of the FAIR principles (Findable, Accessible, Interoperable, Reusable). It highlights how stakeholders, researchers, and the broader community benefit from FAIR implementation, while exploring the growing incentives from journals, funding bodies, and institutions that tie FAIR compliance to scientific impact. A fundamental understanding of FAIR and its role across all stages of the research lifecycle is vital for driving successful implementation.
 
 ## Summary of Tasks and Actions
 
