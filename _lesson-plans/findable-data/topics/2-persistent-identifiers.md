@@ -454,107 +454,14 @@ additionalResources:
 * Find out more about standards including PIDs with FAIRsharing’s standards factsheet
 * Bioregistry catalogues identifier resources (e.g., [DOI](https://bioregistry.io/registry/doi), [ORCID](https://bioregistry.io/registry/orcid), [ROR](https://bioregistry.io/registry/ror)) that assign PIDs. It stores metadata such as their base URL, local unique identifier regular expression pattern, preferred prefix for semantic web contexts, mappings to other registries (e.g., FAIRsharing, BARTOC), and more. Bioregistry has the benefit of being fully open source and having fully open CC0 data to promote community curation and maintenance.
 
-<table>
-  <tr>
-   <td>
-<strong>Full name</strong>
-   </td>
-   <td><strong>Acronym</strong>
-   </td>
-   <td><strong>PID for</strong>
-   </td>
-   <td><strong>Registration</strong>
-   </td>
-   <td><strong>Resolver / base URL</strong>
-   </td>
-   <td><strong>FAIRsharing record</strong>
-   </td>
-  </tr>
-  <tr>
-   <td>Digital Object Identifier
-   </td>
-   <td>DOI
-   </td>
-   <td>Digital objects (e.g. research data, text publication)
-   </td>
-   <td>Through a DOI Registration Agency
-   </td>
-   <td><a href="https://dx.doi.org/">https://dx.doi.org/</a> 
-   </td>
-   <td><a href="https://doi.org/10.25504/FAIRsharing.hFLKCn">https://doi.org/10.25504/FAIRsharing.hFLKCn</a> 
-   </td>
-  </tr>
-  <tr>
-   <td>Open Researcher Contributor Identification Initiative
-   </td>
-   <td>ORCID
-   </td>
-   <td>Scientists (independent of name, institutional and country changes)
-   </td>
-   <td>Self-registration
-   </td>
-   <td><a href="https://orcid.org/">https://orcid.org/</a>
-   </td>
-   <td><a href="https://doi.org/10.25504/FAIRsharing.nx58jg">https://doi.org/10.25504/FAIRsharing.nx58jg</a> 
-   </td>
-  </tr>
-  <tr>
-   <td>Research Organization Registry
-   </td>
-   <td>ROR ID
-   </td>
-   <td>Research institutions
-   </td>
-   <td>On request via form: <a href="https://docs.google.com/forms/d/e/1FAIpQLSdJYaMTCwS7muuTa-B_CnAtCSkKzt19lkirAKG4u7umH9Nosg/viewform">https://docs.google.com/forms/d/e/1FAIpQLSdJYaMTCwS7muuTa-B_CnAtCSkKzt19lkirAKG4u7umH9Nosg/viewform</a>
-   </td>
-   <td><a href="https://ror.org/">https://ror.org/</a>
-   </td>
-   <td><a href="https://doi.org/10.25504/FAIRsharing.f73143">https://doi.org/10.25504/FAIRsharing.f73143</a> 
-   </td>
-  </tr>
-  <tr>
-   <td>Data Management Plan ID
-   </td>
-   <td>DMP-ID
-   </td>
-   <td>Data Management Plans (DMPs)
-   </td>
-   <td>As a DOI (resourceTypeGeneral = “OutputsManagementPlan”)
-   </td>
-   <td><a href="https://dx.doi.org/">https://dx.doi.org/</a> ?
-   </td>
-   <td>/
-   </td>
-  </tr>
-  <tr>
-   <td>International Generic Sample Number
-   </td>
-   <td>IGSN ID
-   </td>
-   <td>Physical objects
-   </td>
-   <td>Through DataCite
-   </td>
-   <td><a href="https://www.igsn.org/">https://www.igsn.org/</a> 
-   </td>
-   <td><a href="https://doi.org/10.25504/FAIRsharing.c7f365">https://doi.org/10.25504/FAIRsharing.c7f365</a> 
-   </td>
-  </tr>
-  <tr>
-   <td>Research Activity Identifier
-   </td>
-   <td>RAiD
-   </td>
-   <td>Research projects
-   </td>
-   <td>API or manual minting?
-   </td>
-   <td><a href="https://www.igsn.org/">https://www.igsn.org/</a>
-   </td>
-   <td><a href="https://doi.org/10.25504/FAIRsharing.dc702a">https://doi.org/10.25504/FAIRsharing.dc702a</a> 
-   </td>
-  </tr>
-</table>
+| Full name | Acronym | PID for | Registration | Resolver / base URL | FAIRsharing record |
+| --- | --- | --- | --- | --- | --- |
+| Digital Object Identifier | DOI | Digital objects (e.g. research data, text publication) | Through a DOI Registration Agency | [https://dx.doi.org/](https://dx.doi.org/) | [https://doi.org/10.25504/FAIRsharing.hFLKCn](https://doi.org/10.25504/FAIRsharing.hFLKCn) |
+| Open Researcher Contributor Identification Initiative | ORCID | Scientists (independent of name, institutional and country changes) | Self-registration | [https://orcid.org/](https://orcid.org/) | [https://doi.org/10.25504/FAIRsharing.nx58jg](https://doi.org/10.25504/FAIRsharing.nx58jg) |
+| Research Organization Registry | ROR ID | Research institutions | On request via [form](https://docs.google.com/forms/d/e/1FAIpQLSdJYaMTCwS7muuTa-B_CnAtCSkKzt19lkirAKG4u7umH9Nosg/viewform) | [https://ror.org/](https://ror.org/) | [https://doi.org/10.25504/FAIRsharing.f73143](https://doi.org/10.25504/FAIRsharing.f73143) |
+| Data Management Plan ID | DMP-ID | Data Management Plans (DMPs) | As a DOI (`resourceTypeGeneral = “OutputsManagementPlan”`) | [https://dx.doi.org/](https://dx.doi.org/) | — |
+| International Generic Sample Number | IGSN ID | Physical objects | Through DataCite | [https://www.igsn.org/](https://www.igsn.org/) | [https://doi.org/10.25504/FAIRsharing.c7f365](https://doi.org/10.25504/FAIRsharing.c7f365) |
+| Research Activity Identifier | RAiD | Research projects | API or manual minting | [https://www.igsn.org/](https://www.igsn.org/) | [https://doi.org/10.25504/FAIRsharing.dc702a](https://doi.org/10.25504/FAIRsharing.dc702a) |
 
 
 
