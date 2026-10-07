@@ -23,7 +23,8 @@ audience:
   - 'Research data facilitators (e.g. data stewards, librarians, trainers)'
   - 'Societies, unions and community alliances'
   - Funders and data policy makers
-  - Researchers in academia, industry and government (e.g. PhD candidate,
+  - >-
+    Researchers in academia, industry and government (e.g. PhD candidate,
     postdoctoral researcher)
 learning_outcomes:
   '1':
@@ -450,142 +451,128 @@ additionalResources:
 ## Topic, definition and scope
 
 * Persistent identifiers (PIDs) are globally unique, actionable and machine-resolvable strings that act as a long-lasting reference to a digital object (e.g. a dataset).
-* Six examples of PIDs are included in the table below (more are available within FAIRsharing’s [identifier schema sub-registry](https://fairsharing.org/search?fairsharingRegistry=Standard&recordType=identifier_schema&page=1) and within the [Bioregistry](https://bioregistry.io/)). 
+* Six examples of PIDs are included in the table below (more are available within FAIRsharing’s [identifier schema sub-registry](https://fairsharing.org/search?fairsharingRegistry=Standard\&recordType=identifier_schema\&page=1) and within the [Bioregistry](https://bioregistry.io/)).
 * Find out more about standards including PIDs with FAIRsharing’s standards factsheet
 * Bioregistry catalogues identifier resources (e.g., [DOI](https://bioregistry.io/registry/doi), [ORCID](https://bioregistry.io/registry/orcid), [ROR](https://bioregistry.io/registry/ror)) that assign PIDs. It stores metadata such as their base URL, local unique identifier regular expression pattern, preferred prefix for semantic web contexts, mappings to other registries (e.g., FAIRsharing, BARTOC), and more. Bioregistry has the benefit of being fully open source and having fully open CC0 data to promote community curation and maintenance.
 
-| Full name | Acronym | PID for | Registration | Resolver / base URL | FAIRsharing record |
-| --- | --- | --- | --- | --- | --- |
-| Digital Object Identifier | DOI | Digital objects (e.g. research data, text publication) | Through a DOI Registration Agency | [https://dx.doi.org/](https://dx.doi.org/) | [https://doi.org/10.25504/FAIRsharing.hFLKCn](https://doi.org/10.25504/FAIRsharing.hFLKCn) |
-| Open Researcher Contributor Identification Initiative | ORCID | Scientists (independent of name, institutional and country changes) | Self-registration | [https://orcid.org/](https://orcid.org/) | [https://doi.org/10.25504/FAIRsharing.nx58jg](https://doi.org/10.25504/FAIRsharing.nx58jg) |
-| Research Organization Registry | ROR ID | Research institutions | On request via [form](https://docs.google.com/forms/d/e/1FAIpQLSdJYaMTCwS7muuTa-B_CnAtCSkKzt19lkirAKG4u7umH9Nosg/viewform) | [https://ror.org/](https://ror.org/) | [https://doi.org/10.25504/FAIRsharing.f73143](https://doi.org/10.25504/FAIRsharing.f73143) |
-| Data Management Plan ID | DMP-ID | Data Management Plans (DMPs) | As a DOI (`resourceTypeGeneral = “OutputsManagementPlan”`) | [https://dx.doi.org/](https://dx.doi.org/) | — |
-| International Generic Sample Number | IGSN ID | Physical objects | Through DataCite | [https://www.igsn.org/](https://www.igsn.org/) | [https://doi.org/10.25504/FAIRsharing.c7f365](https://doi.org/10.25504/FAIRsharing.c7f365) |
-| Research Activity Identifier | RAiD | Research projects | API or manual minting | [https://www.igsn.org/](https://www.igsn.org/) | [https://doi.org/10.25504/FAIRsharing.dc702a](https://doi.org/10.25504/FAIRsharing.dc702a) |
-
-
+| Full name                                             | Acronym | PID for                                                             | Registration                                                                                                               | Resolver / base URL                            | FAIRsharing record                                                                         |
+| ----------------------------------------------------- | ------- | ------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------- | ------------------------------------------------------------------------------------------ |
+| Digital Object Identifier                             | DOI     | Digital objects (e.g. research data, text publication)              | Through a DOI Registration Agency                                                                                          | [https://dx.doi.org/](https://dx.doi.org/)     | [https://doi.org/10.25504/FAIRsharing.hFLKCn](https://doi.org/10.25504/FAIRsharing.hFLKCn) |
+| Open Researcher Contributor Identification Initiative | ORCID   | Scientists (independent of name, institutional and country changes) | Self-registration                                                                                                          | [https://orcid.org/](https://orcid.org/)       | [https://doi.org/10.25504/FAIRsharing.nx58jg](https://doi.org/10.25504/FAIRsharing.nx58jg) |
+| Research Organization Registry                        | ROR ID  | Research institutions                                               | On request via [form](https://docs.google.com/forms/d/e/1FAIpQLSdJYaMTCwS7muuTa-B_CnAtCSkKzt19lkirAKG4u7umH9Nosg/viewform) | [https://ror.org/](https://ror.org/)           | [https://doi.org/10.25504/FAIRsharing.f73143](https://doi.org/10.25504/FAIRsharing.f73143) |
+| Data Management Plan ID                               | DMP-ID  | Data Management Plans (DMPs)                                        | As a DOI (`resourceTypeGeneral = “OutputsManagementPlan”`)                                                                 | [https://dx.doi.org/](https://dx.doi.org/)     | —                                                                                          |
+| International Generic Sample Number                   | IGSN ID | Physical objects                                                    | Through DataCite                                                                                                           | [https://www.igsn.org/](https://www.igsn.org/) | [https://doi.org/10.25504/FAIRsharing.c7f365](https://doi.org/10.25504/FAIRsharing.c7f365) |
+| Research Activity Identifier                          | RAiD    | Research projects                                                   | API or manual minting                                                                                                      | [https://www.igsn.org/](https://www.igsn.org/) | [https://doi.org/10.25504/FAIRsharing.dc702a](https://doi.org/10.25504/FAIRsharing.dc702a) |
 
 * The benefits of assigning PIDs are numerous:
-    * Disambiguation (e.g. between two researchers who have the same first and last names, using their ORCID ID)
-    * Increase research citation and reach of research outputs
-    * Contribute to making research data FAIR (see section “FAIR element(s)”  for more details)
-    * Permanent identifiability/referencability/linkage of scientific output/people/institutions/funders
+  * Disambiguation (e.g. between two researchers who have the same first and last names, using their ORCID ID)
+  * Increase research citation and reach of research outputs
+  * Contribute to making research data FAIR (see section “FAIR element(s)”  for more details)
+  * Permanent identifiability/referencability/linkage of scientific output/people/institutions/funders
 
-
----
+***
 
 ## FAIR element(s)
 
 (from the FAIR data maturity model: [https://doi.org/10.5334/dsj-2020-041](https://doi.org/10.5334/dsj-2020-041))
 
-
-
 * Findable
-    * F1 RDA-F1-01M Metadata is identified by a persistent identifier (essential)
-    * F1 RDA-F1-01D Data is identified by a persistent identifier (essential)
-    * F3 RDA-F3-01M Metadata includes the identifier of the data (essential)
+  * F1 RDA-F1-01M Metadata is identified by a persistent identifier (essential)
+  * F1 RDA-F1-01D Data is identified by a persistent identifier (essential)
+  * F3 RDA-F3-01M Metadata includes the identifier of the data (essential)
 * Accessible
-    * A1 RDA-A1-03M Metadata identifier resolves to a metadata record (essential)
-    * A1 RDA-A1-03D Data identifier resolves to a digital object (essential)
+  * A1 RDA-A1-03M Metadata identifier resolves to a metadata record (essential)
+  * A1 RDA-A1-03D Data identifier resolves to a digital object (essential)
 
-
----
+***
 
 ## Summary of Tasks / Actions
 
+1. Present an example where disambiguation is needed (e.g. two authors with the same name). Identify additional entities that might benefit from being assigned a PID (e.g. research data, text publication, institutions). Finally, define PIDs together.
+2. Present widely-used PIDs and how their syntax can look like:
 
+* DOI
+* ORCID
+* ROR
+* DMP-ID
+* IGSN ID
+* RAiD
+* More are available within FAIRsharing’s [identifier schema](https://fairsharing.org/search?fairsharingRegistry=Standard\&recordType=identifier_schema\&page=1) sub-registry
 
-  1. Present an example where disambiguation is needed (e.g. two authors with the same name). Identify additional entities that might benefit from being assigned a PID (e.g. research data, text publication, institutions). Finally, define PIDs together. 
-  2. Present widely-used PIDs and how their syntax can look like:
-    * DOI
-    * ORCID
-    * ROR
-    * DMP-ID
-    * IGSN ID
-    * RAiD
-    * More are available within FAIRsharing’s [identifier schema](https://fairsharing.org/search?fairsharingRegistry=Standard&recordType=identifier_schema&page=1) sub-registry
-  3. Examples of use cases
-    * Data repositories
-      * Example of actionable PID (= resolver + PID):
-      * Resolver: [https://dx.doi.org/](https://dx.doi.org/) 
-        * DOI: 10.5281/zenodo.3333025
-      * Resolve to the landing page of the repository showing metadata: [https://zenodo.org/record/3333025](https://zenodo.org/record/3333025). “Real” data can be downloaded from this page.
-    * Enabling compute workflows (e.g. [https://doi.org/10.12688/f1000research.12168.1](https://doi.org/10.12688/f1000research.12168.1))
-    * Identifying (chunks) of code
-  4. Show the importance of PIDs for FAIR data by referring to the FAIR elements mentioned in the section “FAIR element(s)”.
-  5. How to use PIDs to access research data and other resources?
-    * Dataset (e.g. DOI: 10.5281/zenodo.3333025)
-    * Text publication (e.g. DOI: 10.5281/zenodo.6674301)
-    * Data management plan (e.g. DOI: 10.5281/zenodo.5995707)
-    * Physical sample (e.g. IGSN ID: AU1243)
-    * Resource descriptions (e.g.Databases, standards, policies) through FAIRsharing DOIs e.g. Dryad https://doi.org/10.25504/FAIRsharing.wkggtx 
-    * Organisations (https://ror.org/) - ROR IDs and associated incl metadata and parent-child relationships e.g. Harvard https://ror.org/03vek6s52 
-    * Research project
-  6. Explain how to receive a PID for research outputs
-    * Repositories (e.g. Zenodo)
-    * PID minting
-  7. Show that proper use of PIDs supports collaboration across facilities, disciplines, institutions and countries. Examples:
-    * Pesant, S. et al. Open science resources for the discovery and analysis of Tara Oceans data. Sci. Data 2:150023 doi: [10.1038/sdata.2015.23](https://doi.org/10.1038/sdata.2015.23) (2015)
-    * Where PIDs are used for terminologies (e.g. ontologies), they allow unambiguous naming/labelling of things, which in term allows for useful/practical data sharing/integrating and, for instance, knowledge graphs.
-  8. Provenance and versioning (see R1.2)
-    * Define resource and metadata provenance.
-    * Explain why provenance information is an important aspect of FAIR data.
-    * Find out together how PIDs can contribute to provenance.
-    * Define dataset versioning and dynamic datasets. 
-    * Explain how PIDs are used in relation to different versions of a dataset or dynamic datasets.
-    * Versioning exercise.
-  9. Introduce PID graphs and explain their importance with a use case (e.g. of use cases can be found here: [https://github.com/datacite/freya/issues?utf8=%E2%9C%93&q=is%3Aissue+is%3Aopen+label%3A%22PID+Graph%22++label%3A%22user+story%22+](https://github.com/datacite/freya/issues?utf8=%E2%9C%93&q=is%3Aissue+is%3Aopen+label%3A%22PID+Graph%22++label%3A%22user+story%22+))
+1. Examples of use cases
 
+* Data repositories
+  * Example of actionable PID (\= resolver + PID):
+  * Resolver: [https://dx.doi.org/](https://dx.doi.org/)
+    * DOI: 10.5281/zenodo.3333025
+  * Resolve to the landing page of the repository showing metadata: [https://zenodo.org/record/3333025](https://zenodo.org/record/3333025). “Real” data can be downloaded from this page.
+* Enabling compute workflows (e.g. [https://doi.org/10.12688/f1000research.12168.1](https://doi.org/10.12688/f1000research.12168.1))
+* Identifying (chunks) of code
 
----
+1. Show the importance of PIDs for FAIR data by referring to the FAIR elements mentioned in the section “FAIR element(s)”.
+2. How to use PIDs to access research data and other resources?
+
+* Dataset (e.g. DOI: 10.5281/zenodo.3333025)
+* Text publication (e.g. DOI: 10.5281/zenodo.6674301)
+* Data management plan (e.g. DOI: 10.5281/zenodo.5995707)
+* Physical sample (e.g. IGSN ID: AU1243)
+* Resource descriptions (e.g.Databases, standards, policies) through FAIRsharing DOIs e.g. Dryad [https://doi.org/10.25504/FAIRsharing.wkggtx](https://doi.org/10.25504/FAIRsharing.wkggtx)
+* Organisations (https://ror.org/) - ROR IDs and associated incl metadata and parent-child relationships e.g. Harvard [https://ror.org/03vek6s52](https://ror.org/03vek6s52)
+* Research project
+
+1. Explain how to receive a PID for research outputs
+
+* Repositories (e.g. Zenodo)
+* PID minting
+
+1. Show that proper use of PIDs supports collaboration across facilities, disciplines, institutions and countries. Examples:
+
+* Pesant, S. et al. Open science resources for the discovery and analysis of Tara Oceans data. Sci. Data 2:150023 doi: [10.1038/sdata.2015.23](https://doi.org/10.1038/sdata.2015.23) (2015)
+* Where PIDs are used for terminologies (e.g. ontologies), they allow unambiguous naming/labelling of things, which in term allows for useful/practical data sharing/integrating and, for instance, knowledge graphs.
+
+1. Provenance and versioning (see R1.2)
+
+* Define resource and metadata provenance.
+* Explain why provenance information is an important aspect of FAIR data.
+* Find out together how PIDs can contribute to provenance.
+* Define dataset versioning and dynamic datasets.
+* Explain how PIDs are used in relation to different versions of a dataset or dynamic datasets.
+* Versioning exercise.
+
+1. Introduce PID graphs and explain their importance with a use case (e.g. of use cases can be found here: [https://github.com/datacite/freya/issues?utf8\=%E2%9C%93\&q\=is%3Aissue+is%3Aopen+label%3A%22PID+Graph%22++label%3A%22user+story%22+](https://github.com/datacite/freya/issues?utf8=%E2%9C%93\&q=is%3Aissue+is%3Aopen+label%3A%22PID+Graph%22++label%3A%22user+story%22+))
+
+***
 
 ## Materials / Equipment
 
-  * Personal computer
-  * Internet connection
-  * Browser
+* Personal computer
+* Internet connection
+* Browser
 
-
----
+***
 
 ## References
 
 * Bobrov, E., et al. (2021). Workshop on Research Data. Berlin University Alliance and ZB MED Information Centre for Life Sciences. Google Slides.
-
 * Cozatl, R., et al. (2021). Workshop on Research Data Management. Martin Luther University of Halle-Wittenberg and ZB MED Information Centre for Life Sciences. Google Slides.
+* ORCID. What are persistent identifiers (PIDs)? Available at: [https://support.orcid.org/hc/en-us/articles/360006971013-What-are-persistent-identifiers-PIDs-](https://support.orcid.org/hc/en-us/articles/360006971013-What-are-persistent-identifiers-PIDs-)
+* Persistent Identifier Communities Forum. Persistent Identifier (PID) Definition. Available at: [https://pidforum.org/t/persistent-identifier-pid-definition/1502](https://pidforum.org/t/persistent-identifier-pid-definition/1502)
+* DataCite Metadata Working Group. DataCite Metadata Schema Documentation. Available at: [https://doi.org/10.5438/7z70-1155](https://doi.org/10.5438/7z70-1155)
+* Fenner, M., & Aryani, A. Connecting Research: ORCID, DOI and other Persistent Identifiers. Available at: [https://doi.org/10.5438/j22a-5d79](https://doi.org/10.5438/j22a-5d79)
+* Technische Informationsbibliothek (TIB). PID services. Available at: [https://www.tib.eu/en/publishing-archiving/pid-service](https://www.tib.eu/en/publishing-archiving/pid-service)
+* Fenner, M., et al. (2020). A data citation roadmap for scholarly data repositories. Data Science Journal. Available at: [https://doi.org/10.5334/dsj-2020-041](https://doi.org/10.5334/dsj-2020-041)
+* GO FAIR Foundation. Persistent Identifiers for FAIR Digital Objects. Available at: [https://doi.org/10.5281/zenodo.6674301](https://doi.org/10.5281/zenodo.6674301)
+* Staiger, C. (2019). Introduction to Persistent Identifiers. DTL. PowerPoint Slides. Available at: [https://doi.org/10.5281/zenodo.3539188](https://doi.org/10.5281/zenodo.3539188)
+* Persistent Identifier Communities Forum. Why use persistent identifiers? Available at: [https://pidforum.org/t/why-use-persistent-identifiers/714](https://pidforum.org/t/why-use-persistent-identifiers/714)
+* RAiD. Research Activity Identifier (RAiD). Available at: [https://www.raid.org.au/](https://www.raid.org.au/)
+* FAIRsharing. Identifier Schemas Registry. Available at: [https://fairsharing.org/search?fairsharingRegistry\=Standard\&recordType\=identifier\_schema\&page\=1](https://fairsharing.org/search?fairsharingRegistry=Standard\&recordType=identifier_schema\&page=1)
+* FAIRsharing. Educational Factsheet on Standards. Available at: [https://fairsharing.org/](https://fairsharing.org/)
 
-* ORCID. What are persistent identifiers (PIDs)? Available at: https://support.orcid.org/hc/en-us/articles/360006971013-What-are-persistent-identifiers-PIDs-
-
-* Persistent Identifier Communities Forum. Persistent Identifier (PID) Definition. Available at: https://pidforum.org/t/persistent-identifier-pid-definition/1502
-
-* DataCite Metadata Working Group. DataCite Metadata Schema Documentation. Available at: https://doi.org/10.5438/7z70-1155
-
-* Fenner, M., & Aryani, A. Connecting Research: ORCID, DOI and other Persistent Identifiers. Available at: https://doi.org/10.5438/j22a-5d79
-
-* Technische Informationsbibliothek (TIB). PID services. Available at: https://www.tib.eu/en/publishing-archiving/pid-service
-
-* Fenner, M., et al. (2020). A data citation roadmap for scholarly data repositories. Data Science Journal. Available at: https://doi.org/10.5334/dsj-2020-041
-
-* GO FAIR Foundation. Persistent Identifiers for FAIR Digital Objects. Available at: https://doi.org/10.5281/zenodo.6674301
-
-* Staiger, C. (2019). Introduction to Persistent Identifiers. DTL. PowerPoint Slides. Available at: https://doi.org/10.5281/zenodo.3539188
-
-* Persistent Identifier Communities Forum. Why use persistent identifiers? Available at: https://pidforum.org/t/why-use-persistent-identifiers/714
-
-* RAiD. Research Activity Identifier (RAiD). Available at: https://www.raid.org.au/
-
-* FAIRsharing. Identifier Schemas Registry. Available at: https://fairsharing.org/search?fairsharingRegistry=Standard&recordType=identifier_schema&page=1
-
-* FAIRsharing. Educational Factsheet on Standards. Available at: https://fairsharing.org/
-
----
+***
 
 ## Take home tasks/preparation
 
+* …
+* …
 
-
-  * …
-  * …
-
-
----
+***
