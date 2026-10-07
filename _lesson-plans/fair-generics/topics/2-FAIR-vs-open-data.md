@@ -1,96 +1,117 @@
 ---
-number: 1.2
-title: FAIR vs open data/science
-status: ready_for_review
+number: 2.2
+title: 'Persistent Identifiers: Making Research Findable and Connected'
+status: published
 layout: lesson-plan
 authors:
-  - 0000-0003-2043-0772
-  - 0000-0003-1810-3756
-  - 0000-0002-3060-3967
+  - 0000-0002-7702-4495
+  - 0000-0002-3412-9086
+  - 0000-0002-9421-8582
+  - 0000-0001-9114-2896
+  - 0000-0001-5816-679X
   - 0000-0002-7398-0594
+  - 0009-0008-8263-8038
+  - 0000-0001-5816-679X
 reviewers:
-  - 0000-0002-5788-2687
-description: >-
-  Overview: This topic introduces participants to the definitions of the FAIR
-  principles with those of open science. The trainer brings forward how data
-  benefits from openness and also highlights that when data per definition
-  cannot be open. Lastly the trainer should also mentioned how open data relates
-  to being made publicly available in certified and trusted repositories,
-  supported by local as well as national and international data policies. This
-  interactive, 60-minute workshop bridges the theory of Open Science with its
-  practical, real-world application through a series of hands-on, scenario-based
-  activities. Students begin by analyzing complex datasets to dismantle the
-  common misconception that FAIR and Open data are identical, discovering
-  firsthand how data can be highly structured yet safely restricted. They then
-  tackle the ethical and technical friction points of data sharing—such as the
-  legalities of anonymization and protecting vulnerable populations—before
-  engaging with an active matchmaking exercise where they learn to evaluate and
-  choose appropriate repositories (like DataverseNL or domain-specific archives)
-  for sensitive types of data. Finally, the lesson culminates in a gamified
-  Mentimeter showcase that connects researchers directly with their local
-  institutional support networks, including Data Stewards and Privacy Teams,
-  ensuring they leave the session with the concrete tools and resources needed
-  to manage their own research lifecycles responsibly.
+  - 0000-0002-0798-1724
 fair_elements:
   - F
   - A
-  - R
 audience:
-  - >-
-    Students, researchers and PIs who would like an introduction to open data
-    compared to FAIR
-  - Onboarding data stewards
-  - 'Not domain-specific, but suitable for all fields'
+  - Developers & curators of resources and tools
+  - Journal publishers and organisations with data policies
+  - 'Research data facilitators (e.g. data stewards, librarians, trainers)'
+  - 'Societies, unions and community alliances'
+  - Funders and data policy makers
+  - Researchers in academia, industry and government (e.g. PhD candidate,
+    postdoctoral researcher)
 learning_outcomes:
   '1':
-    outcome: Compare FAIR and open data
+    outcome: Making participants aware of the issue of missing PID
     verbs:
-      - verb: Beginner
+      - verb: Demonstrate
         level: beginner
-      - verb: Intermediate
-        level: intermediate
   '2':
-    outcome: >-
-      Identify official university support channels and online repositories for
-      open science inquiries.
+    outcome: |
+      Define what a Persistent Identifier (PID) is.
     verbs:
-      - verb: Beginner Level
+      - verb: Explain
         level: beginner
   '3':
-    outcome: Describe the benefits and challenges of open science
+    outcome: 'Recognize common PID systems used in research (e.g., DOI, ORCID, ROR).'
     verbs:
-      - verb: Beginner level
+      - verb: Recall
         level: beginner
   '4':
-    outcome: Explain the challenges of making data open
+    outcome: >
+      Explain the role of PIDs in making research outputs Findable within the
+      FAIR principles.
     verbs:
-      - verb: Beginner Level
+      - verb: Explain
         level: beginner
   '5':
-    outcome: Choose a suitable repository to make data open
+    outcome: >
+      Describe how PIDs help address issues such as broken links, ambiguous
+      authorship, and inaccessible datasets.
     verbs:
-      - verb: Intermediate
+      - verb: Describe
+        level: beginner
+  '6':
+    outcome: >
+      Explain the basic structure and syntax of commonly used identifiers (e.g.,
+      DOI or ORCID).
+    verbs:
+      - verb: Explain
+        level: beginner
+  '7':
+    outcome: |
+      Use a PID to locate a research output, dataset, or researcher.
+    verbs:
+      - verb: Apply
+        level: beginner
+  '8':
+    outcome: >
+      Identify which type of PID should be assigned in different research
+      scenarios (e.g., dataset, author, institution).
+    verbs:
+      - verb: Evaluate
         level: intermediate
-prerequisites:
-  - Have basic knowledge of the FAIR Principles
+  '9':
+    outcome: >
+      Analyze research scenarios to determine how missing or incorrect
+      identifiers affect research visibility, reproducibility, and reuse.
+    verbs:
+      - verb: Analyze
+        level: intermediate
+  '10':
+    outcome: >
+      Apply knowledge of PIDs to identify where they can be used in their own
+      research workflows.
+    verbs:
+      - verb: Implement
+        level: expert
 terms4FAIRskills:
   - subject:
       - uri: 'http://purl.obolibrary.org/obo/T4FS_0000178'
         label: Data steward
-      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000220'
+      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000492'
+        label: Data curator
+      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000202'
+        label: Data librarian
+      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000520'
+        label: Data manager
+      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000220)'
         label: researcher
-      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000415'
-        label: manager
-      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000122'
-        label: trainer/teacher
     predicate:
       - uri: 'http://purl.obolibrary.org/obo/T4FS_0000558'
         label: wants competency in
     object:
-      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000293'
-        label: flexibility in relating fair criteria to openness
-      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000482'
-        label: data sharing
+      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000492'
+        label: understanding persistent identifiers
+      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000076'
+        label: data discovery
+      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000302'
+        label: data citation
   - subject:
       - uri: 'http://purl.obolibrary.org/obo/T4FS_0000095'
         label: Online documentation
@@ -98,10 +119,12 @@ terms4FAIRskills:
       - uri: 'http://purl.obolibrary.org/obo/T4FS_0000554'
         label: confers competency about
     object:
-      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000293'
-        label: flexibility in relating fair criteria to openness
-      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000482'
-        label: data sharing
+      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000492'
+        label: understanding persistent identifiers
+      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000076'
+        label: data discovery
+      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000302'
+        label: data citation
   - subject:
       - uri: 'http://purl.obolibrary.org/obo/T4FS_0000095'
         label: Online documentation
@@ -109,10 +132,10 @@ terms4FAIRskills:
       - uri: 'http://purl.obolibrary.org/obo/T4FS_0000555'
         label: confers knowledge about
     object:
-      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000264'
-        label: open data
-      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000283'
-        label: access
+      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000453'
+        label: persistent identifier
+      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000250'
+        label: citable data
   - subject:
       - uri: 'http://purl.obolibrary.org/obo/T4FS_0000095'
         label: Online documentation
@@ -120,388 +143,449 @@ terms4FAIRskills:
       - uri: 'http://purl.obolibrary.org/obo/T4FS_0000560'
         label: supports implementation of
     object:
-      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000393'
-        label: F4. (meta)data are registered or indexed in a searchable resource
-      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000103'
-        label: 'A1.1 The protocol is open, free, and universally implementable'
-      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000371'
+      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000512'
         label: >-
-          A1.2 The protocol allows for an authentication and authorisation
-          procedure, where necessary
-      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000200'
+          F1. (meta)data are assigned a globally unique and persistent
+          identifier
+      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000435'
         label: >-
-          R1.1 (Meta)data are released with a clear and accessible data usage
-          license
-additionalResources:
-  - title: The Turing Way
-    url: 'https://the-turing-way.netlify.app/reproducible-research/open.html'
-  - title: FOSTER Open Science Training Handbook
-    url: 'https://zenodo.org/record/2587951#.YrwsLhNBw-R'
-  - title: Open Data Handbook
-    url: 'https://opendatahandbook.org/'
-  - title: >-
-      Three Camps, One Destination: The Intersections of Research Data
-      Management, FAIR and Open.
-    author: 'Higman, Rosie, Daniel Bangert, Sarah Jones'
-    year: 2019
-    journal: Insights
-    volume: 32
-    number: 1
-    pages: 18
-    url: 'http://doi.org/10.1629/uksg.468'
-  - title: OpenAIRE - How to select a repository?
-    url: 'https://www.openaire.eu/opendatapilot-repository-guide'
-  - title: OpenAIRE - How do I license my (research) data?
-    url: 'https://www.openaire.eu/how-do-i-license-my-research-data'
-  - title: FAIR in (biological) practice
-    url: 'https://carpentries-incubator.github.io/fair-bio-practice/'
-  - title: UNESCO Recommendations on Open Science
-    url: 'https://unesdoc.unesco.org/ark:/48223/pf0000379949.locale=en'
-  - title: Identify the Open Access policy of journals using Sherpa Romeo
-    url: >-
-      https://help.figshare.com/article/using-sherpa-romeo-to-check-publisher-open-access-policies
+          F3. metadata clearly and explicitly include the identifier of the data
+          they describe
+      - uri: 'http://purl.obolibrary.org/obo/T4FS_0000038'
+        label: >-
+          A1. (meta)data are retrievable by their identifier using a
+          standardised communications protocol
+description: "## Topic definition and scope:\n\nThis lesson introduces **Persistent Identifiers (PIDs)** and their role in making research outputs more **findable, accessible, and reliably linked** within the research ecosystem. The session situates PIDs within the **FAIR principles**, focusing especially on their importance for the *Findable* principle.\n\nParticipants are introduced to widely used PID systems and explore how these identifiers support discovery, citation, attribution, and interoperability in research workflows.\n\nPersistent identifiers (PIDs) are globally unique and long-lasting references assigned to digital research objects and entities, such as datasets, publications, software, researchers, and organizations.\n\nThis lesson introduces the concept and practical use of PIDs within the context of **FAIR data and Open Science practices**. Using a problem-based scenario, participants examine typical issues that arise when persistent identifiers are missing, for example when datasets cannot be found, links no longer work, or authors cannot be uniquely identified. Participants reflect on how such situations affect research transparency, reproducibility, and reuse.\n\nThe session then introduces commonly used PID systems and demonstrates how they enable reliable identification and linking of research outputs and contributors.\n\nThe lesson follows an **interactive, problem-based learning approach**. It starts with a short scenario illustrating common issues researchers encounter when persistent identifiers are missing, for example:\n\n* When a dataset cited in a publication cannot be found\n* When the same dataset appears under multiple names or locations\_\n* When a dataset link leads to a “404\_ Page Not Found” error.\_\n\nParticipants discuss what may have gone wrong, who is affected by these issues, and how they impact trust, reproducibility, and reuse of research outputs. Building on this discussion, the instructor introduces the concept of PIDs and their role in the FAIR framework. Participants then work in small groups on fictional research cases to identify missing identifiers and determine which PIDs should have been assigned. The session concludes with a short reflection linking PIDs to participants’ own research practices, institutional Open Science policies, and funder requirements."
 activities:
   before: []
   during:
-    - learning_outcome: 1
-      activities: |-
-        **Lecture:**&#x20;
-
-        **Introduction to FAIR and Open Science**&#x20;
-
-        Introduce participants to the concepts of FAIR and Open Science&#x20;
-      time: 20 minutes
-      type: Lecture
-      level: beginner
     - learning_outcome: 1
       activities: >-
         **Exercise:**
 
 
-        **Comparison** **between FAIR and Open Data**
+        **Experiencing the issue of missing PID**
 
 
-        &#x20;Students will compare two different scenarios in groups of 3. They
-        will at the end discuss whether it is FAIR or Open Data in the
-        examples.&#x20;
+        The participating groups will each get various data sets to perform the
+        exercise:
 
 
-        **Time 15 minutes**
+        * Group 1 gets a dataset without a DOI;
+
+        * Group 2 gets an author without ORCID;
+
+        * Group 3 gets a date set with author, ORCID, and DOI
 
 
-        **Scenario 1: Patient Trial**&#x20;
+        Participants experience what can go wrong without PIDs (without
+        necessarily knowing which PIDs was needed).
+      time: 15 min
+      type: Group Activity
+      level: beginner
+    - learning_outcome: 2
+      activities: >-
+        **Lecture:**
 
 
-        A highly structured, machine-readable dataset of clinical trial results.
-        It uses standardized medical vocabulary, possesses a unique DOI (digital
-        footprint identifier), and features detailed metadata. However, because
-        it contains private medical data, researchers must sign a strict privacy
-        agreement to get an encrypted access token.
+        **Introduction of PIDs within the FAIR framework 1/7**
 
 
-        **Correct Answer:** FAIR but closed
+        The trainer would provide a lecture aiming at
 
 
-        **Scenario 2:**  the Github Treasure&#x20;
+        * Define what PIDs are&#x20;
 
+        * Demonstrate the importance of PIDs
 
-        A genomics lab uploads a gene-sequencing dataset to a public repository.
-        It has a unique DOI, uses standard FASTA file formatting, includes rich
-        metadata explaining the methodology, and carries an open-use license.
+        * Emphasize that PIDs are required for data and metadata to be Findable
+        (tie in with FAIR principles)
 
+        * Show examples of PIDs within different settings (datasets,
+        publications, people, organizations)
 
-        **Correct Answer:** Open and FAIR&#x20;
-
-
-        **Plenary discussion:**&#x20;
-
-
-        **Time 10 minutes**&#x20;
-
-
-        The following questions can be used in the Plenary discussion:&#x20;
-
-
-        * **If Scenario 1 isn't 'Open,' why is it still incredibly valuable for
-        science?** *(This helps them realize that protecting privacy doesn't
-        mean data should be messy or unfindable).*
-
-        * **What would we need to change in Scenario 2 to make it *only* Open,
-        but no longer FAIR?** *(This tests if they can reverse-engineer the
-        concepts—e.g., stripping the metadata and DOI, and dumping the data as a
-        raw, unlabeled text file).*
-      time: 20 minutes
-      type: Group discussion
+        * Demonstrate how a PID can be created (use an example commonly used
+        within your institute, e.g., Zenodo, DataverseNL, 4TU.ResearchData)
+      time: 20 min
+      type: lecture
       level: beginner
     - learning_outcome: 3
       activities: >-
-        **Exercise**
+        **Lecture:**
 
 
-        **Identifying Benefits and Challenges of Open Science and FAIR** &#x20;
+        **Introduction of PIDs within the FAIR framework 2/7**
 
 
-        **Time 10 minutes**
+        The trainer would provide a lecture aiming at
 
 
-        * Put students in pairs. Assign every pair one specific stakeholder from
-        the research world (e.g., Pair A looks at the Individual Researcher,
-        Pair B looks at The Public/Society, Pair C looks at The Scientific
-        Community.
+        * Define what PIDs are
 
-        * Instruct the pairs to write down two things on their sheet or digital
-        board:&#x20;
+        * Demonstrate the importance of PIDs
 
+        * Emphasize that PIDs are required for data and metadata to be Findable
+        (tie in with FAIR principles)
 
-        1. Describe The Benefit: Describe one major reason why Open/FAIR science
-        helps their stakeholder.
+        * Show examples of PIDs within different settings (datasets,
+        publications, people, organizations)
 
-        2. Describe The Cost The Challenge: Describe one major roadblock or
-        headache this stakeholder faces when trying to do it.
-
-
-        * Call out each stakeholder group and have one pair rapidly read aloud
-        their descriptions. The instructor notes them on the board to build a
-        collective map.
-      time: 10 minutes
-      type: Open Discussion
+        * Demonstrate how a PID can be created (use an example commonly used
+        within your institute, e.g., Zenodo, DataverseNL, 4TU.ResearchData)
+      time: 20 min
+      type: lecture
       level: beginner
-    - learning_outcome: 2
-      activities: >-
-        **Lecture:**&#x20;
-
-
-        **Mapping the Open Science and FAIR Institutional Landscape**
-
-
-        Introduce the participants to the Open Science and FAIR support
-        infrastructure in your Institution.&#x20;
-      time: 20 minutes
-      type: Lecture
-      level: beginner
-    - learning_outcome: 2
-      activities: >-
-        **Exercise:**&#x20;
-
-
-        **Identify the right Help-Line**
-
-
-        **Time 15 minutes:**&#x20;
-
-
-        Present in a Mentimeter different catastrophic scenarios for a
-        researcher. Then have the participants choose who they right contact
-        person might be.&#x20;
-
-
-        * **Scenario 1:** *"I am writing a grant proposal and the funder
-        requires a 2-page Data Management Plan (DMP) by next Friday. I don't
-        know where to start."*
-          * **Correct Channel:** ➡️ **Your Central Data Steward at the Faculty or University Hospital** *(They provide DMP templates and review drafts).*
-        * **Scenario 2:** *"I have 600 gigabytes of human neuroimaging data. I
-        know it needs to be FAIR, but I don't know what metadata standard or
-        file repository my specific faculty prefers."*
-          * **Correct Channel:** ➡️ **Your Central Data Steward at the Faculty or University Hospital** *(They are embedded experts who know domain-specific standards).*
-        * **Scenario 3:** *"I want to publish my article Open Access, but the
-        journal is charging an 1800 euro fee. I need to know if our university
-        has an agreement to cover this cost."*
-          * **Correct Channel:** ➡️ **The Library Open Access Team** *(They manage journal publisher deals and funding pots).*
-        * **Scenario 4:** *"My dataset contains highly encrypted personal
-        identification keys. I need a secure server to store it while we analyze
-        it."*
-          * **Correct Channel:** ➡️ **The University or University Hospital Privacy Team** *(They handle secure infrastructure and GDPR storage compliance).*
-      time: '15'
-      type: Open Discussion
-      level: beginner
-    - learning_outcome: 5
-      activities: |-
-        **Lecture:**&#x20;
-
-        **Introduction to Repositories**&#x20;
-      time: 10 minutes
-      type: Lecture
-      level: beginner
-    - learning_outcome: 5
-      activities: >-
-        **Exercise:** **Choosing the right Repository**
-
-
-        **Time 15 minutes**&#x20;
-
-
-        * **Explain the Case Study:**&#x20;
-
-
-        Have the participants read the following case study and decide which
-        repository they would choose to publish at least the study's meta-data
-
-
-        Dr. Alcaraz is leading a qualitative research project exploring
-        long-term health outcomes and access to medical care for children living
-        in temporary immigration communities in the Philippines.
-
-
-        * **The Data:** 45 hours of raw audio recordings and transcriptions from
-        deep, semi-structured interviews with children (ages 6–12) and their
-        legal caretakers. The transcripts mention specific medical conditions,
-        illegal housing arrangements, and exact geographical locations.
-
-        * **The Dilemma:** Dr. Alcaraz knows the raw data is far too sensitive
-        to be completely public under data protection regulations (like GDPR or
-        local privacy laws). However, her funding body requires her to make the
-        project **FAIR**. She decides she will keep the raw transcripts securely
-        locked away, but she wants to publish the **metadata record** openly so
-        other global health researchers know the project exists and can request
-        collaboration.
-
-        * **Give the participants the following list of Repositories to choose
-        from:**&#x20;
-
-
-        | Repository Option                           | Key
-        Features                                                                                                                                                                                                                                                                                            
-        |
-
-        | ------------------------------------------- |
-        --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-        |
-
-        | Option A: Zenodo                            | A massive, free global
-        generalist repository hosted by CERN. It assigns an automatic DOI and
-        allows anyone to upload anything instantly. It has a "Restricted Access"
-        feature where you can post the metadata openly but keep the files hidden
-        unless you manually approve a user's request.             |
-
-        | Option B: DataverseNL                       | A secure,
-        institutional/national repository network used by Dutch universities. It
-        offers dedicated, long-term curation support, lets you publish metadata
-        seamlessly, and provides built-in, highly structured "restricted data"
-        workflows that comply strictly with European institutional guidelines. |
-
-        | Option C: Qualitative Data Repository (QDR) | A domain-specific
-        repository explicitly designed for archiving qualitative and
-        multi-method social science data. It specializes in digital security
-        protocols for sensitive interview transcripts and human participant
-        data, offering expert review of metadata before it goes
-        live.                    |
-
-
-        * **Debriefing choices:**&#x20;
-
-
-        When the groups make their choice and present their arguments, there
-        isn't one single "perfect" answer, but there are distinct advantages
-        they should **explain**:
-
-
-        * **If they choose DataverseNL:** This is an excellent choice if Dr.
-        Alcaraz is based at a Dutch institution. It ensures local institutional
-        compliance, provides institutional backing, and has reliable
-        infrastructure for restricted-access metadata.
-
-        * **If they choose QDR (Domain-Specific):** This is technically the
-        **Gold Standard** according to the repository selection hierarchy
-        (*domain-specific first*). Because QDR specializes in qualitative data,
-        their curators will actually look at the metadata to ensure no
-        identifying information about the children accidentally slipped into the
-        abstract or project description.
-
-        * **If they choose Zenodo:** While highly accessible and great for rapid
-        DOI generation, it is a generalist repository. It lacks the
-        human-curated oversight that a highly sensitive project involving minors
-        might require to prevent accidental data leaks in the public text
-        fields.
-      time: '20'
-      type: Case Study
-      level: intermediate
     - learning_outcome: 4
       activities: >-
-        **Exercise:**&#x20;
+        **Lecture:**
 
 
-        **Explaining the Challenges of Making data Open**
+        **Introduction of PIDs within the FAIR framework 3/7**
 
 
-        Project a fake, high-risk research snippet on your Mentimeter screen.
-        Tell the students:  (e.g.) You want to share this raw study dataset
-        openly on GitHub today. Look at the text—which details are a massive
-        legal or ethical hazard if published?
+        The trainer would provide a lecture aiming at
 
 
-        **2.The Mentimeter Vote:**&#x20;
+        * Define what PIDs are
 
+        * Demonstrate the importance of PIDs
 
-        **Time 2 - 5 minutes**
+        * Emphasize that PIDs are required for data and metadata to be Findable
+        (tie in with FAIR principles)
 
+        * Show examples of PIDs within different settings (datasets,
+        publications, people, organizations)
 
-        Have students select from a multiple-choice list or use a word cloud to
-        flag the dangerous data points. Ask them to think about GDPR,
-        Participant Privacy, and Intellectual Property .
-
-
-        **3.The Peer Explanation Debrief:** &#x20;
-
-
-        **Time** **5 - 10 minutes**&#x20;
-
-
-        Turn to the class and ask: "Why can't we just use a simple 'Find and
-        Replace' to delete the names and call it a day?" Have 2 or 3 students
-        explain the hidden challenges of anonymization.
-      time: '10'
-      type: Open Discussion
+        * Demonstrate how a PID can be created (use an example commonly used
+        within your institute, e.g., Zenodo, DataverseNL, 4TU.ResearchData)
+      time: 20 min
+      type: lecture
       level: beginner
-  after: []
+    - learning_outcome: 5
+      activities: >-
+        **Lecture:**
+
+
+        **Introduction of PIDs within the FAIR framework 4/7**
+
+
+        The trainer would provide a lecture aiming at
+
+
+        * Define what PIDs are
+
+        * Demonstrate the importance of PIDs
+
+        * Emphasize that PIDs are required for data and metadata to be Findable
+        (tie in with FAIR principles)
+
+        * Show examples of PIDs within different settings (datasets,
+        publications, people, organizations)
+
+        * Demonstrate how a PID can be created (use an example commonly used
+        within your institute, e.g., Zenodo, DataverseNL, 4TU.ResearchData)
+      time: 20 min
+      type: lecture
+      level: beginner
+    - learning_outcome: 6
+      activities: >-
+        **Lecture:**
+
+
+        **Introduction of PIDs within the FAIR framework 5/7**
+
+
+        The trainer would provide a lecture aiming at
+
+
+        * Define what PIDs are
+
+        * Demonstrate the importance of PIDs
+
+        * Emphasize that PIDs are required for data and metadata to be Findable
+        (tie in with FAIR principles)
+
+        * Show examples of PIDs within different settings (datasets,
+        publications, people, organizations)
+
+        * Demonstrate how a PID can be created (use an example commonly used
+        within your institute, e.g., Zenodo, DataverseNL, 4TU.ResearchData)
+      time: 20 min
+      type: lecture
+      level: beginner
+    - learning_outcome: 7
+      activities: >-
+        **Lecture:**&#x20;
+
+
+        **Introduction of PIDs within the FAIR framework 6/7**
+
+
+        The trainer would provide a lecture aiming at
+
+
+        * Define what PIDs are
+
+        * Demonstrate the importance of PIDs
+
+        * Emphasize that PIDs are required for data and metadata to be Findable
+        (tie in with FAIR principles)
+
+        * Show examples of PIDs within different settings (datasets,
+        publications, people, organizations)
+
+        * Demonstrate how a PID can be created (use an example commonly used
+        within your institute, e.g., Zenodo, DataverseNL, 4TU.ResearchData)
+      time: 20 min
+      type: lecture
+      level: beginner
+    - learning_outcome: 8
+      activities: >-
+        **Lecture:**
+
+
+        **Introduction of PIDs within the FAIR framework 7/7**
+
+
+        The trainer would provide a lecture aiming at
+
+
+        * Define what PIDs are
+
+        * Demonstrate the importance of PIDs
+
+        * Emphasize that PIDs are required for data and metadata to be Findable
+        (tie in with FAIR principles)
+
+        * Show examples of PIDs within different settings (datasets,
+        publications, people, organizations)
+
+        * Demonstrate how a PID can be created (use an example commonly used
+        within your institute, e.g., Zenodo, DataverseNL, 4TU.ResearchData)
+      time: 20 min
+      type: lecture
+      level: intermediate
+  after:
+    - learning_outcome: 9
+      activities: >-
+        **Exercise:**
+
+
+        **Highlighting how PIDs are connected to their research, OS policies,
+        funder requirements, long-term preservation, collaborations with
+        partners, etc. 1/2**
+
+
+        * Ask participants to think about the types of outputs or entities
+        involved in their research, for example:
+          * datasets
+          * publications
+          * software or code
+          * protocols or workflows
+          * researchers (themselves or collaborators)
+          * institutions or projects
+        * Discuss:
+          * Which of these outputs already have persistent identifiers?
+          * Which ones could or should have one but currently do not?
+        * Reflect
+          * How could PIDs help when sharing data with collaborators?
+          * How could they help others find, cite, or reuse their work?
+          * Are there any funder or institutional requirements/guidelines related to PIDs?
+      time: 1 hour
+      type: Group exercise
+      level: intermediate
+    - learning_outcome: 10
+      activities: >-
+        **Exercise:**
+
+
+        **Highlighting how PIDs are connected to their research, OS policies,
+        funder requirements, long-term preservation, collaborations with
+        partners, etc. 2/2**
+
+
+        * Ask participants to think about the types of outputs or entities
+        involved in their research, for example:
+          * datasets
+          * publications
+          * software or code
+          * protocols or workflows
+          * researchers (themselves or collaborators)
+          * institutions or projects
+        * Discuss:
+          * Which of these outputs already have persistent identifiers?
+          * Which ones could or should have one but currently do not?
+        * Reflect
+          * How could PIDs help when sharing data with collaborators?
+          * How could they help others find, cite, or reuse their work?
+          * Are there any funder or institutional requirements/guidelines related to PIDs?
+      time: 1 hour
+      type: Group exercise
+      level: expert
+prerequisites:
+  - >-
+    Basic knowledge of FAIR principles and what can be done to improve data
+    FAIRness: https://www.go-fair.org/fair-principles/
+additionalResources:
+  - title: 'NWO PID strategy '
+    url: 'https://doi.org/10.5281/zenodo.4674513'
+    author: 'Maria Cruz and Tatum Clifford '
+    doi: '4674513'
+  - title: Get a persistent identifier for your training material
+    url: >-
+      https://elixir-europe-training.github.io/ELIXIR-TrP-FAIR-training-handbook/chapters/chapter_05/
+    author: Elixir-Europe Training FAIR
+  - title: ORCID home page
+    url: 'https://orcid.org/'
+  - title: >-
+      Research Organization Registry (ROR) A global, community-led registry of
+      open persistent identifiers for research and funding organizations
+    url: 'https://ror.org/'
+    author: 'ROR Research Organization Registry '
+  - title: DOI Foundation
+    url: 'https://www.doi.org/'
+  - title: 'F-UJI Automated FAIR Data Assessment tool '
+    url: 'https://www.f-uji.net/'
 ---
-## **Overview:**&#x20;
+## Topic, definition and scope
 
-This lesson plan explores the distinct boundaries, intersections, and synergies between Open Science and the FAIR principles. While Open Science focuses on making research, data, and methods freely available to everyone—from professionals to citizens—FAIR focuses on making data optimized for discovery and reuse (by both humans and machines), regardless of whether it is openly accessible or restricted. Understanding this distinction allows trainers to help researchers navigate data sharing responsibly, balancing public access with necessary data protections.
+* Persistent identifiers (PIDs) are globally unique, actionable and machine-resolvable strings that act as a long-lasting reference to a digital object (e.g. a dataset).
+* Six examples of PIDs are included in the table below (more are available within FAIRsharing’s [identifier schema sub-registry](https://fairsharing.org/search?fairsharingRegistry=Standard&recordType=identifier_schema&page=1) and within the [Bioregistry](https://bioregistry.io/)). 
+* Find out more about standards including PIDs with FAIRsharing’s standards factsheet
+* Bioregistry catalogues identifier resources (e.g., [DOI](https://bioregistry.io/registry/doi), [ORCID](https://bioregistry.io/registry/orcid), [ROR](https://bioregistry.io/registry/ror)) that assign PIDs. It stores metadata such as their base URL, local unique identifier regular expression pattern, preferred prefix for semantic web contexts, mappings to other registries (e.g., FAIRsharing, BARTOC), and more. Bioregistry has the benefit of being fully open source and having fully open CC0 data to promote community curation and maintenance.
 
-## **Key Learning Outcomes:**&#x20;
+| Full name | Acronym | PID for | Registration | Resolver / base URL | FAIRsharing record |
+| --- | --- | --- | --- | --- | --- |
+| Digital Object Identifier | DOI | Digital objects (e.g. research data, text publication) | Through a DOI Registration Agency | [https://dx.doi.org/](https://dx.doi.org/) | [https://doi.org/10.25504/FAIRsharing.hFLKCn](https://doi.org/10.25504/FAIRsharing.hFLKCn) |
+| Open Researcher Contributor Identification Initiative | ORCID | Scientists (independent of name, institutional and country changes) | Self-registration | [https://orcid.org/](https://orcid.org/) | [https://doi.org/10.25504/FAIRsharing.nx58jg](https://doi.org/10.25504/FAIRsharing.nx58jg) |
+| Research Organization Registry | ROR ID | Research institutions | On request via [form](https://docs.google.com/forms/d/e/1FAIpQLSdJYaMTCwS7muuTa-B_CnAtCSkKzt19lkirAKG4u7umH9Nosg/viewform) | [https://ror.org/](https://ror.org/) | [https://doi.org/10.25504/FAIRsharing.f73143](https://doi.org/10.25504/FAIRsharing.f73143) |
+| Data Management Plan ID | DMP-ID | Data Management Plans (DMPs) | As a DOI (`resourceTypeGeneral = “OutputsManagementPlan”`) | [https://dx.doi.org/](https://dx.doi.org/) | — |
+| International Generic Sample Number | IGSN ID | Physical objects | Through DataCite | [https://www.igsn.org/](https://www.igsn.org/) | [https://doi.org/10.25504/FAIRsharing.c7f365](https://doi.org/10.25504/FAIRsharing.c7f365) |
+| Research Activity Identifier | RAiD | Research projects | API or manual minting | [https://www.igsn.org/](https://www.igsn.org/) | [https://doi.org/10.25504/FAIRsharing.dc702a](https://doi.org/10.25504/FAIRsharing.dc702a) |
 
-1.0 Distinguish FAIR from Open Data: Differentiate between FAIR principles and Open Science standards, evaluating scenarios where datasets can be highly FAIR yet legally or ethically restricted.
 
-2.0 Navigate Ethical & Technical Sharing Boundaries: Analyze data-sharing friction points—such as participant privacy, anonymization, and vulnerable populations—to determine when and how sensitive data can be shared safely.
 
-3.0Select Suitable Repositories & Institutional Support:\*\*\*\* Evaluate and select appropriate domain-specific or institutional repositories (e.g., DataverseNL) for distinct data types while leveraging local data steward and privacy networks.
+* The benefits of assigning PIDs are numerous:
+    * Disambiguation (e.g. between two researchers who have the same first and last names, using their ORCID ID)
+    * Increase research citation and reach of research outputs
+    * Contribute to making research data FAIR (see section “FAIR element(s)”  for more details)
+    * Permanent identifiability/referencability/linkage of scientific output/people/institutions/funders
 
-## **Citation and Attribution**:
 
-FOSTER. (2018). *Open Science Training Handbook: Readme*. GitBook.[https://open-science-training-handbook.gitbook.io/book](https://open-science-training-handbook.gitbook.io/book)
+---
 
-## Core Topics Covered:
+## FAIR element(s)
 
-| Topic / Module                                                   | Target Competency Level          |
-| ---------------------------------------------------------------- | -------------------------------- |
-| FAIR & Open Science Definitions                                  | Beginner / Intermediate / Expert |
-| Access Spectrum: Open, Restricted, Embargoed, & Closed           | Beginner                         |
-| The Reproducibility Crisis                                       | Beginner                         |
-| Open Infrastructure: Methods, software, tools, and code          | Beginner / Intermediate          |
-| Benefits of Open Data vs. FAIR Data Compliance                   | Intermediate                     |
-| Responsible Restrictions: Sensitive/patient data & anonymization | Intermediate                     |
-| Data Availability Statements                                     | Expert                           |
-| Adopting Open Science Principles & Tooling                       | Expert                           |
-| The Berlin Declaration (Context for Data Stewards)               | Specialist                       |
-|                                                                  |                                  |
-|                                                                  |                                  |
-|                                                                  |                                  |
+(from the FAIR data maturity model: [https://doi.org/10.5334/dsj-2020-041](https://doi.org/10.5334/dsj-2020-041))
 
-## Summary of Tasks and Actions:
 
-**1.0 Practical Framework Discussion:** Participants analyze the core concepts to identify the critical differences, overlaps, and misconceptions between FAIR and Open Science.
 
-**2.0 Mapping the Local Ecosystem:** A practical exercise where participants learn to identify institutional workflows and locate specific local contacts or support networks for guidance on FAIR and Open Science.
+* Findable
+    * F1 RDA-F1-01M Metadata is identified by a persistent identifier (essential)
+    * F1 RDA-F1-01D Data is identified by a persistent identifier (essential)
+    * F3 RDA-F3-01M Metadata includes the identifier of the data (essential)
+* Accessible
+    * A1 RDA-A1-03M Metadata identifier resolves to a metadata record (essential)
+    * A1 RDA-A1-03D Data identifier resolves to a digital object (essential)
 
-**3.0 Navigating Compliance Challenges:** A critical-thinking exercise inviting participants to brainstorm and dissect the real-world barriers researchers face when trying to adopt open practices and FAIR principles.
 
-**4.0 Case Study - Selecting the Right Repository:** A hands-on, scenario-based activity. Participants evaluate a realistic research case study—considering data sensitivity and access requirements—and select the most appropriate data repository for publication.
+---
 
-## Materials and Equipment:
+## Summary of Tasks / Actions
 
-* **For the Trainer:** A computer connected to a projector/display to present instructions and visual aids.
-* **For Participants:** A computer or tablet for active research, repository exploration, and group activities.
 
-## Take Home Message:&#x20;
 
-**FAIR does not automatically mean Open, and Open is not automatically FAIR.** Open Science dictates *who* can access research, while FAIR dictates *how effectively* data can be discovered and reused by both humans and machines. As close as possible and close as neccesary.
+  1. Present an example where disambiguation is needed (e.g. two authors with the same name). Identify additional entities that might benefit from being assigned a PID (e.g. research data, text publication, institutions). Finally, define PIDs together. 
+  2. Present widely-used PIDs and how their syntax can look like:
+    * DOI
+    * ORCID
+    * ROR
+    * DMP-ID
+    * IGSN ID
+    * RAiD
+    * More are available within FAIRsharing’s [identifier schema](https://fairsharing.org/search?fairsharingRegistry=Standard&recordType=identifier_schema&page=1) sub-registry
+  3. Examples of use cases
+    * Data repositories
+      * Example of actionable PID (= resolver + PID):
+      * Resolver: [https://dx.doi.org/](https://dx.doi.org/) 
+        * DOI: 10.5281/zenodo.3333025
+      * Resolve to the landing page of the repository showing metadata: [https://zenodo.org/record/3333025](https://zenodo.org/record/3333025). “Real” data can be downloaded from this page.
+    * Enabling compute workflows (e.g. [https://doi.org/10.12688/f1000research.12168.1](https://doi.org/10.12688/f1000research.12168.1))
+    * Identifying (chunks) of code
+  4. Show the importance of PIDs for FAIR data by referring to the FAIR elements mentioned in the section “FAIR element(s)”.
+  5. How to use PIDs to access research data and other resources?
+    * Dataset (e.g. DOI: 10.5281/zenodo.3333025)
+    * Text publication (e.g. DOI: 10.5281/zenodo.6674301)
+    * Data management plan (e.g. DOI: 10.5281/zenodo.5995707)
+    * Physical sample (e.g. IGSN ID: AU1243)
+    * Resource descriptions (e.g.Databases, standards, policies) through FAIRsharing DOIs e.g. Dryad https://doi.org/10.25504/FAIRsharing.wkggtx 
+    * Organisations (https://ror.org/) - ROR IDs and associated incl metadata and parent-child relationships e.g. Harvard https://ror.org/03vek6s52 
+    * Research project
+  6. Explain how to receive a PID for research outputs
+    * Repositories (e.g. Zenodo)
+    * PID minting
+  7. Show that proper use of PIDs supports collaboration across facilities, disciplines, institutions and countries. Examples:
+    * Pesant, S. et al. Open science resources for the discovery and analysis of Tara Oceans data. Sci. Data 2:150023 doi: [10.1038/sdata.2015.23](https://doi.org/10.1038/sdata.2015.23) (2015)
+    * Where PIDs are used for terminologies (e.g. ontologies), they allow unambiguous naming/labelling of things, which in term allows for useful/practical data sharing/integrating and, for instance, knowledge graphs.
+  8. Provenance and versioning (see R1.2)
+    * Define resource and metadata provenance.
+    * Explain why provenance information is an important aspect of FAIR data.
+    * Find out together how PIDs can contribute to provenance.
+    * Define dataset versioning and dynamic datasets. 
+    * Explain how PIDs are used in relation to different versions of a dataset or dynamic datasets.
+    * Versioning exercise.
+  9. Introduce PID graphs and explain their importance with a use case (e.g. of use cases can be found here: [https://github.com/datacite/freya/issues?utf8=%E2%9C%93&q=is%3Aissue+is%3Aopen+label%3A%22PID+Graph%22++label%3A%22user+story%22+](https://github.com/datacite/freya/issues?utf8=%E2%9C%93&q=is%3Aissue+is%3Aopen+label%3A%22PID+Graph%22++label%3A%22user+story%22+))
+
+
+---
+
+## Materials / Equipment
+
+  * Personal computer
+  * Internet connection
+  * Browser
+
+
+---
+
+## References
+
+* Bobrov, E., et al. (2021). Workshop on Research Data. Berlin University Alliance and ZB MED Information Centre for Life Sciences. Google Slides.
+
+* Cozatl, R., et al. (2021). Workshop on Research Data Management. Martin Luther University of Halle-Wittenberg and ZB MED Information Centre for Life Sciences. Google Slides.
+
+* ORCID. What are persistent identifiers (PIDs)? Available at: https://support.orcid.org/hc/en-us/articles/360006971013-What-are-persistent-identifiers-PIDs-
+
+* Persistent Identifier Communities Forum. Persistent Identifier (PID) Definition. Available at: https://pidforum.org/t/persistent-identifier-pid-definition/1502
+
+* DataCite Metadata Working Group. DataCite Metadata Schema Documentation. Available at: https://doi.org/10.5438/7z70-1155
+
+* Fenner, M., & Aryani, A. Connecting Research: ORCID, DOI and other Persistent Identifiers. Available at: https://doi.org/10.5438/j22a-5d79
+
+* Technische Informationsbibliothek (TIB). PID services. Available at: https://www.tib.eu/en/publishing-archiving/pid-service
+
+* Fenner, M., et al. (2020). A data citation roadmap for scholarly data repositories. Data Science Journal. Available at: https://doi.org/10.5334/dsj-2020-041
+
+* GO FAIR Foundation. Persistent Identifiers for FAIR Digital Objects. Available at: https://doi.org/10.5281/zenodo.6674301
+
+* Staiger, C. (2019). Introduction to Persistent Identifiers. DTL. PowerPoint Slides. Available at: https://doi.org/10.5281/zenodo.3539188
+
+* Persistent Identifier Communities Forum. Why use persistent identifiers? Available at: https://pidforum.org/t/why-use-persistent-identifiers/714
+
+* RAiD. Research Activity Identifier (RAiD). Available at: https://www.raid.org.au/
+
+* FAIRsharing. Identifier Schemas Registry. Available at: https://fairsharing.org/search?fairsharingRegistry=Standard&recordType=identifier_schema&page=1
+
+* FAIRsharing. Educational Factsheet on Standards. Available at: https://fairsharing.org/
+
+---
+
+## Take home tasks/preparation
+
+
+
+  * …
+  * …
+
+
+---
